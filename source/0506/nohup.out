@@ -1,0 +1,17 @@
+start loading data
+Traceback (most recent call last):
+  File "0507-1.py", line 35, in <module>
+    x_train=pickle.load(f)
+  File "/home/um003580/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/pandas/core/indexes/base.py", line 94, in _new_Index
+    def _new_Index(cls, d):
+KeyboardInterrupt
+/home/um003580/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/lightgbm/basic.py:1036: UserWarning: Using categorical_feature in Dataset.
+  warnings.warn('Using categorical_feature in Dataset.')
+start loading data
+[Loading done] done in 52 s
+preparing validation datasets
+start learning
+Traceback (most recent call last):
+  File "0507-1.py", line 121, in <module>
+    del xgvalid
+NameError: name 'xgvalid' is not defined
